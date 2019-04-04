@@ -19,7 +19,25 @@ public class GoofyNames {
 
 // 3. Loop through each character of the name (steps 4 - 6).
 		//    HINT: Use .length() to determine the number of characters in the String.
+for (int i = 0; i < goofyName.length() ; i++) {
+	
+	// Note: Confusion at substring purpose and use
+	String ok = goofyName.substring(i, goofyName.length());
+	
+	int hi = Integer.parseInt(ok);
+	// Note: How?
+	
+	
+	
+	
+	
+	
+	if(hi % 2 == 0) {
+		
 
+	}
+
+}
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
